@@ -1,4 +1,5 @@
 #Creating .flaskenv configurations...
+input('input FLASK_APP name:\n')
 flaskenv = open(".flaskenv","wt")
 config = ("FLASK_APP=main.py \nFLASK_ENV=development")
 flaskenv.write(config)
